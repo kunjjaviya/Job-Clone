@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.main{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(252 252 253);
+}
+
+.mainHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logoHead p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.linkHead ul{
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+    gap: 10px;
+}
+.linkHead ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+    cursor: pointer;
+}
+
+.btnHead{
+    padding-right: 10px;
+    display: flex;
+    gap: 15px;
+}
+.btnHead button{
+   font-size: 1rem;
+   padding: 15px;
+   border: 1px solid rgb(120, 120, 120);
+   background-color: #fff;
+   font-weight: 500;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btnHead .b2 button{
+    background-color: rgb(106, 71, 201);
+    color: #fff;
+}
+
+/* Start job post */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.jobSet{
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 1000px;
+}
+.jobSet .main-text p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.jobSet .second-text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 10px;
+    color: rgb(75 85 101);
+}
+
+.jobSet hr{
+    border: 1px solid rgb(187, 187, 187);
+    margin-top: 20px;
+    width: 95%;
+}
+
+.jobSet-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.jobSet-form .inner-2{
+    padding-right: 50px;
+}
+.jobSet-form .inner-2 input[type=text], select, textarea{
+    width: 480px;
+    resize: none;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+.jobSet-form .inner-2 input[type=text], textarea:hover{
+    border: 1px solid red;
+}
+.jobSet-form .inner-2 input[type=text]{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+.jobSet-form .inner-2 input[type=text]:hover{
+    border: 1px solid red;
+}
+.jobSet-form .common-selector{
+    padding-right: 450px;
+    font-size: 1.1rem;
+}
+.orderSummery{
+    padding-right: 5rem;
+    padding-top: 30px;
+}
+
+.orderSummery .main-text p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.total-section{
+    width: 300px;
+    height: 90px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.t-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.t-main .main-text p{
+    font-size: 1.1rem;
+}
+.t-main .second-text p{
+    font-size: 1.1rem;
+}
+.t-second p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 10px;
+    color: rgb(75 85 101);
+}
